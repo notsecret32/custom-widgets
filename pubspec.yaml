@@ -1,0 +1,32 @@
+name: custom_widgets
+description: 'A collection of custom widgets that are used for application development.'
+version: 0.0.1
+homepage: https://github.com/notsecret32/custom-widgets.git
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+  flutter: '>=1.17.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  week_of_year: ^2.2.0
+  google_mobile_ads: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Light.ttf
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          style: normal
